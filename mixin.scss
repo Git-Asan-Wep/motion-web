@@ -1,0 +1,33 @@
+@mixin se{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@mixin sa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin sb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin al{
+  display: flex;
+  align-items: center;
+}
+@mixin cen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin al{
+  display: flex;
+  align-items: center;
+}
+@mixin col{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

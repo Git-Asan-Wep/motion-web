@@ -1,0 +1,258 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #hero .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #hero .hero--img .image {
+    width: 267px;
+  }
+  #master .master--block {
+    flex-direction: column;
+  }
+  #master .master--block__nav {
+    margin: 20px 0;
+  }
+  #forum .forum {
+    flex-direction: column;
+  }
+  #marg .marg {
+    flex-wrap: wrap;
+  }
+  #marg .marg--for {
+    margin: 20px 0;
+  }
+  #marg .marg--marti {
+    margin: 0 128px;
+  }
+  #smog .smog {
+    flex-direction: column;
+  }
+  #fotter .fotter--block {
+    flex-direction: column;
+  }
+  #fotter .fotter--block__svyaz {
+    margin: 30px 0;
+  }
+  #fotter .fotter--adres {
+    flex-direction: column;
+  }
+  #document .document {
+    flex-direction: column;
+  }
+  #fotter .fotter--adres {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  #smog .smog--nav .accordion {
+    width: 547px;
+  }
+  #smog .smog--nav__text p {
+    color: black;
+    width: 526px;
+  }
+  #marg .marg--marti {
+    margin: 42px 128px;
+  }
+  #marg .marg--block .foto {
+    margin-top: -30px;
+    margin-left: 164px;
+  }
+  #text .text--block p {
+    width: 616px;
+    font-size: 12px;
+  }
+  #document .document--top {
+    width: 300px;
+    margin: 20px 0;
+    height: 220px;
+    border-radius: 10px;
+    animation: ff 2s ease-out;
+  }
+  #text .text--block {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  #header .header--btn button {
+    padding: 3px 20px;
+    font-size: 15px;
+  }
+  #header .header--text a {
+    font-size: 11px;
+    padding: 0 6px;
+  }
+  #hero .hero--text h1 {
+    font-weight: 700;
+    font-size: 33px;
+    color: #FFFFFF;
+    margin: 20px 0;
+  }
+  #curs .curs--block__img .tu {
+    display: none;
+  }
+  #curs .curs--web__image .adam {
+    display: none;
+  }
+  #curs .curs--top__text h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  #curs .swiper {
+    width: 480px;
+    height: 300px;
+  }
+  #coma .coma--block {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  #hero .hero {
+    flex-direction: column;
+  }
+  #curs .cur {
+    font-size: 26px;
+  }
+  #hero .hero--img .image {
+    width: 227px;
+  }
+  #curs .swiper {
+    width: 271px;
+    height: 439px;
+  }
+  #curs .curs--block__nav--btn p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    color: #2C3E50;
+    width: 204px;
+  }
+  #curs .curs--web__start--bloc20 p {
+    width: 202px;
+    font-size: 16px;
+  }
+  #curs .curs--button button {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+  #master .master--nav h1 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #smog .smog--nav .accordion {
+    width: 229px;
+  }
+  #smog .smog--nav__text p {
+    color: black;
+    width: 250px;
+  }
+  #coma .coma--block__navbar p {
+    width: 320px;
+    font-size: 15px;
+  }
+  #coma .coma--block__navbar button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 328px) {
+  #master .master--block__nav {
+    width: 244px;
+  }
+  #forum .forum--nav__int input {
+    width: 260px;
+    height: 45px;
+  }
+  #forum .forum--nav__bloc input {
+    width: 260px;
+    height: 45px;
+  }
+  #forum .forum--nav__tim input {
+    width: 260px;
+    height: 45px;
+  }
+  #forum .forum--nav__btn {
+    flex-direction: column;
+  }
+  #marg .marg--block p {
+    font-size: 10px;
+  }
+  #marg .marg--block__text h5 {
+    font-size: 8px;
+  }
+  #marg .marg--block__text h4 {
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+  }
+  #marg .marg--block .foto {
+    margin-top: -30px;
+    margin-left: 114px;
+  }
+  #marg .marg--marti p {
+    font-size: 9px;
+    width: 290px;
+  }
+  #marg .marg--marti .foto {
+    margin-top: -30px;
+    margin-left: 113px;
+  }
+  #marg .marg--for p {
+    font-size: 9px;
+    width: 298px;
+  }
+  #marg .marg--for .foto {
+    margin-top: -30px;
+    margin-left: 116px;
+  }
+  #smog .smog--text h1 {
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 54px;
+    color: #FFFFFF;
+  }
+  #smog .smog--nav .accordion {
+    font-size: 13px;
+  }
+  #master .master--button button {
+    background: transparent;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 14px;
+    color: #9099A3;
+    border: 2px solid #9099A3;
+    border-radius: 12px;
+    animation: df 2s ease-out;
+  }
+  #header .header--btn button {
+    padding: 10px 25px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #0096C7;
+    border-radius: 10px;
+    border: none;
+  }
+  #document .document--block p {
+    text-align: center;
+    width: 314px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  #coma .coma--block__navbar h1 {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background: #1e2024;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header .img {
+  animation: fr 2s ease-out;
+}
+@keyframes fr {
+  0% {
+    transform: translatex(-600px);
+  }
+}
+#header .header--text {
+  animation: bf 2s ease-out;
+}
+@keyframes bf {
+  0% {
+    transform: translatey(-800px);
+  }
+}
+#header .header--text a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 0 15px;
+}
+#header .header--text a:hover {
+  padding: 10px 20px;
+  background: blueviolet;
+  border-radius: 30px;
+  text-decoration-line: underline;
+}
+#header .header--btn {
+  animation: vs 2s ease-out;
+}
+@keyframes vs {
+  0% {
+    transform: translate(600px);
+  }
+}
+#header .header--btn select {
+  background: transparent;
+  margin: 0 20px;
+  border: none;
+  color: #FFFFFF;
+}
+#header .header--btn select option {
+  background: red;
+}
+#header .header--btn button {
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #0096C7;
+  border-radius: 10px;
+  border: none;
+}
+#header .header--btn button:hover {
+  background: red;
+}
+
+#forum {
+  background: #09191c;
+}
+#forum .forum {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#forum .forum--text h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#forum .forum--text p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 268px;
+  color: #9099A3;
+}
+#forum .forum--nav__int p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#forum .forum--nav__int input {
+  padding: 0 40px;
+  width: 616px;
+  height: 60px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#forum .forum--nav__bloc {
+  margin: 30px 0;
+}
+#forum .forum--nav__bloc p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#forum .forum--nav__bloc input {
+  color: #FFFFFF;
+  padding: 0 40px;
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#forum .forum--nav__tim {
+  margin-bottom: 20px;
+}
+#forum .forum--nav__tim p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9099A3;
+}
+#forum .forum--nav__tim input {
+  color: #FFFFFF;
+  padding: 0 40px;
+  width: 616px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+#forum .forum--nav__btn {
+  display: flex;
+  align-items: center;
+}
+#forum .forum--nav__btn p {
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#forum .forum--nav__btn button {
+  padding: 10px 25px;
+  background: #0096C7;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style3.css.map */

@@ -1,0 +1,479 @@
+@import "reset";
+@import "mixin";
+@import "variables";
+
+#header{
+  background: #1e2024;
+  height: 100px;
+  @include cen;
+  .header{
+    @include sa;
+    .img{
+      animation: fr 2s ease-out;
+      @keyframes fr {
+        0%{
+          transform: translatex(-600px);
+        }
+      }
+    }
+    &--text{
+      animation: bf 2s ease-out;
+      @keyframes bf {
+        0%{
+          transform: translatey(-800px);
+        }
+      }
+      a{
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 0 15px;
+        &:hover{
+          padding: 10px 25px;
+          background: green;
+          border-radius: 30px;
+        }
+      }
+    }
+    &--btn{
+      animation: vs 2s ease-out;
+      @keyframes vs {
+        0%{
+          transform: translate(600px);
+        }
+      }
+      select{
+        background: transparent ;
+        margin: 0 20px;
+        border: none;
+        color: #FFFFFF;
+        option{
+          background: red;
+        }
+      }
+      button{
+        padding: 10px 25px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+
+        background: #0096C7;
+        border-radius: 10px;
+        border: none;
+        &:hover{
+          background: red;
+        }
+
+      }
+    }
+  }
+}
+
+#coma{
+  background: #09191c;
+  .coma{
+    &--nav{
+      padding: 20px 0;
+      animation: cf 2s ease-out;
+      @keyframes cf {
+        0%{
+          transform: translatey(-1000px);
+        }
+      }
+      @include sa;
+      &__text{
+        @include al;
+        h1{
+          font-weight: 400;
+          font-size: 12px;
+          color: #FFFFFF;
+        }
+        ion-icon{
+          margin: 0 10px;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+      }
+      &__bloc{
+        @include al;
+        h1{
+          font-weight: 400;
+          font-size: 14px;
+          color: #FFFFFF;
+        }
+        p{
+          font-weight: 400;
+          font-size: 14px;
+          color: #9099A3;
+
+        }
+        ion-icon{
+          color: #FFFFFF;
+          font-size: 20px;
+        }
+      }
+    }
+    &--block{
+      @include sa;
+      &__navbar{
+        margin-top: 50px;
+        animation: sf 2s ease-out;
+        @keyframes sf {
+          0%{
+            transform: translatex(-800px);
+          }
+        }
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          &:hover{
+            text-decoration-line: underline;
+            color: red;
+          }
+
+        }
+        p{
+          width: 320px;
+          margin: 20px 0;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+          &:hover{
+            text-decoration-line: underline;
+            color: red;
+          }
+
+        }
+        button{
+          padding: 15px 30px;
+          background: #0096C7;
+          border-radius: 10px;
+          border: none;
+          font-weight: 900;
+          font-size: 18px;
+          //text-transform: capitalize;
+          color: #FFFFFF;
+          &:hover{
+            box-shadow: 10px 10px 50px 15px red;
+          }
+        }
+      }
+      &__text{
+        animation: mn 2s ease-out;
+        @keyframes mn {
+          0%{
+            transform: translatex(800px);
+          }
+        }
+        div{
+          width: 200px;
+          border: 1px solid #FFFFFF;
+          &:hover{
+            text-decoration-line: underline;
+            color: red;
+          }
+        }
+        h1{
+          margin: 10px 0;
+          font-weight: 700;
+          font-size: 20px;
+          color: #FFFFFF;
+          &:hover{
+            text-decoration-line: underline;
+            color: red;
+          }
+        }
+        p{
+          margin: 10px 0;
+          font-weight: 400;
+          font-size: 18px;
+          color: #FFFFFF;
+          &:hover{
+            text-decoration-line: underline;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+#video{
+  background: #09191c;
+  .video{
+    &--block{
+      padding: 40px 0;
+      @include cen;
+    }
+  }
+}
+
+#text{
+  background: #09191c;
+  .text{
+    &--block{
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+
+      }
+      p{
+        margin: 20px 0;
+        width: 900px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+      }
+    }
+    &--nav{
+      h1{
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-decoration-line: underline;
+      }
+      P{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 195%;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+#document{
+  background: #09191c;
+  .document{
+    padding: 50px 0;
+    @include sa;
+    &--nav{
+      width: 300px;
+      height: 220px;
+      border-radius: 10px;
+      animation: ww 2s ease-out;
+      @keyframes ww {
+        0%{
+          transform: translatex(-500px);
+        }
+      }
+      &:hover{
+        box-shadow: 10px 10px 50px 10px darkred;
+        border: 1px dashed grey;
+      }
+      .vid{
+        margin: 0 100px;
+      }
+      h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 10px 0;
+      }
+      p{
+        text-align: center;
+        width: 257px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+      }
+    }
+    &--top{
+      width: 300px;
+      height: 220px;
+      border-radius: 10px;
+      animation: ff 2s ease-out;
+      @keyframes ff {
+        0%{
+          box-shadow: 10px 10px 50px 10px darkred;
+          border: 1px dashed grey;
+          transform: skew(30deg, 20deg);
+        }
+      }
+      &:hover{
+        box-shadow: 10px 10px 50px 10px darkred;
+        border: 1px dashed grey;
+      }
+      .vid{
+        margin: 0 100px;
+      }
+      h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 10px 0;
+      }
+      p{
+        text-align: center;
+        width: 257px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+      }
+    }
+    &--block{
+      width: 350px;
+      height: 220px;
+      border-radius: 10px;
+      animation: wu 2s ease-out;
+      @keyframes wu {
+        0%{
+          transform: translatex(500px);
+        }
+      }
+      &:hover{
+        box-shadow: 10px 10px 50px 10px darkred;
+        border: 1px dashed grey;
+      }
+      .vid{
+        margin: 0 130px;
+      }
+      h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 10px 0;
+      }
+      p{
+        text-align: center;
+        width: 347px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+}
+
+
+#fotter{
+  background: #09191c;
+  .fotter {
+    &--block{
+      //padding: 50px 0;
+      @include sa;
+      &__img{
+
+      }
+      &__title{
+        h1{
+          width: 107px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 27px;
+          color: #FFFFFF;
+        }
+        &--a{
+          a{
+            width: 85px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            &:hover{
+              color: red;
+            }
+          }
+
+        }
+      }
+      &__svyaz{
+        h1{
+          width: 164px;
+          font-weight: 700;
+          font-size: 18px;
+          color: #FFFFFF;
+          margin-bottom: 10px;
+
+        }
+        p{
+          width: 228px;
+          font-weight: 400;
+          font-size: 14px;
+          color: #9099A3;
+          &:hover{
+            color: red;
+          }
+        }
+        h4{
+          margin: 10px 0;
+          font-weight: 400;
+          font-size: 14px;
+          color: #9099A3;
+          &:hover{
+            color: red;
+          }
+        }
+      }
+      &__icon{
+        h1{
+          width: 78px;
+          font-weight: 700;
+          font-size: 18px;
+          color: #FFFFFF;
+        }
+        &--ion{
+          margin: 20px 0;
+          color: blanchedalmond;
+          display: grid;
+          grid-template-columns: repeat(3,3fr);
+          gap: 1rem;
+        }
+      }
+    }
+    &--adres{
+      @include sb;
+      &__title{
+        p{
+          width: 171px;
+          font-weight: 400;
+          font-size: 9px;
+          color: #9099A3;
+        }
+      }
+      &__block{
+        @include sb;
+        p{
+          width: 196px;
+          font-weight: 400;
+          font-size: 9px;
+          color: #9099A3;
+        }
+        &--visa{
+          &__vs{
+
+            margin: 0 7px;
+            display: flex;
+          }
+          &__img{
+            h3{
+              margin-left: 10px;
+              width: 36px;
+              font-weight: 400;
+              font-size: 6px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
